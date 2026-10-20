@@ -1,0 +1,20 @@
+{
+"name": "minecraft-kay-bot",
+"version": "4.5.0",
+"description": "Kay Minecraft AFK Bot with noVNC screen stream and 3D Viewer for Render",
+"main": "index.js",
+"scripts": {
+"start": "node index.js"
+},
+"dependencies": {
+"canvas": "^2.11.2",
+"express": "^4.19.2",
+"http-proxy-middleware": "^2.0.6",
+"mineflayer": "^4.39.0",
+"prismarine-viewer": "^1.29.0",
+"socket.io": "^4.7.5"
+},
+"engines": {
+"node": ">=20.0.0"
+}
+}
